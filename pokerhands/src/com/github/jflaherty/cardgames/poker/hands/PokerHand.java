@@ -1,10 +1,10 @@
-package com.github.wsppan.cardgames.poker.hands;
+package com.github.jflaherty.cardgames.poker.hands;
 
 import java.util.Collection;
 
-import com.github.wsppan.cardgames.playingcards.french.Card;
-import com.github.wsppan.cardgames.poker.sequences.sets.ICardGameSequenceSet;
-import com.github.wsppan.cardgames.poker.sequences.sets.PokerSequenceSet;
+import com.github.jflaherty.cardgames.playingcards.french.Card;
+import com.github.jflaherty.cardgames.poker.sequences.sets.ICardGameSequenceSet;
+import com.github.jflaherty.cardgames.poker.sequences.sets.PokerSequenceSet;
 
 public class PokerHand implements ICardGameHand {
     private ICardGameSequenceSet sequenceSet;

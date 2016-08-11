@@ -1,4 +1,4 @@
-package com.github.wsppan.cardgames.poker.sequences;
+package com.github.jflaherty.cardgames.poker.sequences;
 
 import static org.junit.Assert.*;
 
@@ -6,12 +6,12 @@ import java.util.*;
 
 import org.junit.Test;
 
-import com.github.wsppan.cardgames.playingcards.french.Card;
-import com.github.wsppan.cardgames.playingcards.french.Rank;
-import com.github.wsppan.cardgames.playingcards.french.Suit;
-import com.github.wsppan.cardgames.poker.hands.PokerHandRank;
-import com.github.wsppan.cardgames.poker.sequences.ISequence;
-import com.github.wsppan.cardgames.poker.sequences.StraightSequence;
+import com.github.jflaherty.cardgames.playingcards.french.Card;
+import com.github.jflaherty.cardgames.playingcards.french.Rank;
+import com.github.jflaherty.cardgames.playingcards.french.Suit;
+import com.github.jflaherty.cardgames.poker.hands.PokerHandRank;
+import com.github.jflaherty.cardgames.poker.sequences.ISequence;
+import com.github.jflaherty.cardgames.poker.sequences.StraightSequence;
 
 public class StraightSequenceTest {
 

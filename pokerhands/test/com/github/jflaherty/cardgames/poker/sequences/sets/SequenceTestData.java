@@ -1,10 +1,10 @@
-package com.github.wsppan.cardgames.poker.sequences.sets;
+package com.github.jflaherty.cardgames.poker.sequences.sets;
 
 import java.util.*;
 
-import com.github.wsppan.cardgames.playingcards.french.Card;
-import com.github.wsppan.cardgames.poker.hands.PokerHandRank;
-import com.github.wsppan.cardgames.poker.helpers.CardHelper;
+import com.github.jflaherty.cardgames.playingcards.french.Card;
+import com.github.jflaherty.cardgames.poker.hands.PokerHandRank;
+import com.github.jflaherty.cardgames.poker.helpers.CardHelper;
 
 public class SequenceTestData {
     private List<Card> cards;

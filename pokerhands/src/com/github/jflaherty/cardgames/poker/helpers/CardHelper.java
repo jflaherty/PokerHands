@@ -1,11 +1,12 @@
-package com.github.wsppan.cardgames.poker.helpers;
+package com.github.jflaherty.cardgames.poker.helpers;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
-import com.github.wsppan.cardgames.playingcards.exceptions.IllegalCardException;
-import com.github.wsppan.cardgames.playingcards.french.Card;
-import com.github.wsppan.cardgames.playingcards.french.Rank;
+
+import com.github.jflaherty.cardgames.playingcards.exceptions.IllegalCardException;
+import com.github.jflaherty.cardgames.playingcards.french.Card;
+import com.github.jflaherty.cardgames.playingcards.french.Rank;
 
 public class CardHelper {
 

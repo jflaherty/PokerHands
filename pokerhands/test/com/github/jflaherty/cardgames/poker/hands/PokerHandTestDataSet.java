@@ -1,4 +1,4 @@
-package com.github.wsppan.cardgames.poker.hands;
+package com.github.jflaherty.cardgames.poker.hands;
 
 import java.util.ArrayList;
 import java.util.Collection;

@@ -1,6 +1,6 @@
-package com.github.wsppan.cardgames.poker.hands;
+package com.github.jflaherty.cardgames.poker.hands;
 
-import com.github.wsppan.cardgames.poker.sequences.sets.ICardGameSequenceSet;
+import com.github.jflaherty.cardgames.poker.sequences.sets.ICardGameSequenceSet;
 
 public interface ICardGameHand extends Comparable<ICardGameHand> {
 

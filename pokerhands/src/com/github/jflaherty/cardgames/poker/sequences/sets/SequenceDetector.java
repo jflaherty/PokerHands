@@ -1,23 +1,23 @@
-package com.github.wsppan.cardgames.poker.sequences.sets;
+package com.github.jflaherty.cardgames.poker.sequences.sets;
 
-import static com.github.wsppan.cardgames.poker.hands.PokerHandRank.FLUSH;
-import static com.github.wsppan.cardgames.poker.hands.PokerHandRank.FOUR_OF_A_KIND;
-import static com.github.wsppan.cardgames.poker.hands.PokerHandRank.PAIR;
-import static com.github.wsppan.cardgames.poker.hands.PokerHandRank.STRAIGHT;
-import static com.github.wsppan.cardgames.poker.hands.PokerHandRank.THREE_OF_A_KIND;
+import static com.github.jflaherty.cardgames.poker.hands.PokerHandRank.FLUSH;
+import static com.github.jflaherty.cardgames.poker.hands.PokerHandRank.FOUR_OF_A_KIND;
+import static com.github.jflaherty.cardgames.poker.hands.PokerHandRank.PAIR;
+import static com.github.jflaherty.cardgames.poker.hands.PokerHandRank.STRAIGHT;
+import static com.github.jflaherty.cardgames.poker.hands.PokerHandRank.THREE_OF_A_KIND;
 
 import java.util.Collection;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-import com.github.wsppan.cardgames.playingcards.french.Card;
-import com.github.wsppan.cardgames.poker.hands.PokerHandRank;
-import com.github.wsppan.cardgames.poker.helpers.CardHelper;
-import com.github.wsppan.cardgames.poker.helpers.SequenceHelper;
-import com.github.wsppan.cardgames.poker.sequences.CardSequence;
-import com.github.wsppan.cardgames.poker.sequences.FullHouseSequence;
-import com.github.wsppan.cardgames.poker.sequences.ISequence;
-import com.github.wsppan.cardgames.poker.sequences.StraightSequence;
+import com.github.jflaherty.cardgames.playingcards.french.Card;
+import com.github.jflaherty.cardgames.poker.hands.PokerHandRank;
+import com.github.jflaherty.cardgames.poker.helpers.CardHelper;
+import com.github.jflaherty.cardgames.poker.helpers.SequenceHelper;
+import com.github.jflaherty.cardgames.poker.sequences.CardSequence;
+import com.github.jflaherty.cardgames.poker.sequences.FullHouseSequence;
+import com.github.jflaherty.cardgames.poker.sequences.ISequence;
+import com.github.jflaherty.cardgames.poker.sequences.StraightSequence;
 
 public class SequenceDetector {
     private SortedSet<Card> cardsInSequence = new TreeSet<Card>();

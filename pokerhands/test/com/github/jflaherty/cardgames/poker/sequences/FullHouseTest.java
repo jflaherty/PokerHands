@@ -1,14 +1,16 @@
-package com.github.wsppan.cardgames.poker.sequences;
+package com.github.jflaherty.cardgames.poker.sequences;
 
 import static org.junit.Assert.*;
 import org.junit.Test;
 
 import java.util.*;
 
-import com.github.wsppan.cardgames.playingcards.french.Card;
-import com.github.wsppan.cardgames.playingcards.french.Rank;
-import com.github.wsppan.cardgames.playingcards.french.Suit;
-import com.github.wsppan.cardgames.poker.hands.PokerHandRank;
+import com.github.jflaherty.cardgames.playingcards.french.Card;
+import com.github.jflaherty.cardgames.playingcards.french.Rank;
+import com.github.jflaherty.cardgames.playingcards.french.Suit;
+import com.github.jflaherty.cardgames.poker.hands.PokerHandRank;
+import com.github.jflaherty.cardgames.poker.sequences.FullHouseSequence;
+import com.github.jflaherty.cardgames.poker.sequences.ISequence;
 
 public class FullHouseTest {
 

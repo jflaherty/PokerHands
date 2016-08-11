@@ -1,4 +1,4 @@
-package com.github.wsppan.cardgames.poker.hands;
+package com.github.jflaherty.cardgames.poker.hands;
 
 import static org.junit.Assert.*;
 
@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
-import com.github.wsppan.cardgames.poker.hands.PokerHand;
+import com.github.jflaherty.cardgames.poker.hands.PokerHand;
 
 @RunWith(Parameterized.class)
 public class PokerHandTest {

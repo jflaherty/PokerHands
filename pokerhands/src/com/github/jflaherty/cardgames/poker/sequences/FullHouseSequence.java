@@ -1,11 +1,11 @@
-package com.github.wsppan.cardgames.poker.sequences;
+package com.github.jflaherty.cardgames.poker.sequences;
 
-import static com.github.wsppan.cardgames.poker.helpers.SequenceHelper.findRepeats;
+import static com.github.jflaherty.cardgames.poker.helpers.SequenceHelper.findRepeats;
 
 import java.util.*;
 
-import com.github.wsppan.cardgames.playingcards.french.Card;
-import com.github.wsppan.cardgames.poker.hands.PokerHandRank;
+import com.github.jflaherty.cardgames.playingcards.french.Card;
+import com.github.jflaherty.cardgames.poker.hands.PokerHandRank;
 
 public class FullHouseSequence extends CardSequence {
 

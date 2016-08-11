@@ -1,11 +1,11 @@
-package com.github.wsppan.cardgames.poker.sequences;
+package com.github.jflaherty.cardgames.poker.sequences;
 
 import java.util.SortedSet;
 import java.util.TreeSet;
 import java.util.stream.Collectors;
 
-import com.github.wsppan.cardgames.playingcards.french.Card;
-import com.github.wsppan.cardgames.poker.hands.IHandRank;
+import com.github.jflaherty.cardgames.playingcards.french.Card;
+import com.github.jflaherty.cardgames.poker.hands.IHandRank;
 
 public class CardSequence implements ISequence {
     private final IHandRank handRank;

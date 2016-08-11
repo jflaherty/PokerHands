@@ -1,11 +1,11 @@
-package com.github.wsppan.cardgames.poker.sequences;
+package com.github.jflaherty.cardgames.poker.sequences;
 
 import java.util.Collection;
 import java.util.TreeSet;
 
-import com.github.wsppan.cardgames.playingcards.french.Card;
-import com.github.wsppan.cardgames.poker.hands.PokerHandRank;
-import com.github.wsppan.cardgames.poker.helpers.CardHelper;
+import com.github.jflaherty.cardgames.playingcards.french.Card;
+import com.github.jflaherty.cardgames.poker.hands.PokerHandRank;
+import com.github.jflaherty.cardgames.poker.helpers.CardHelper;
 
 public class StraightSequence extends CardSequence {
 

@@ -1,4 +1,4 @@
-package com.github.wsppan.cardgames.poker.hands;
+package com.github.jflaherty.cardgames.poker.hands;
 
 import static org.junit.Assert.*;
 
@@ -13,9 +13,9 @@ import java.util.List;
 import org.junit.Assume;
 import org.junit.Test;
 
-import com.github.wsppan.cardgames.playingcards.french.Card;
-import com.github.wsppan.cardgames.poker.hands.PokerHand;
-import com.github.wsppan.cardgames.poker.helpers.CardHelper;
+import com.github.jflaherty.cardgames.playingcards.french.Card;
+import com.github.jflaherty.cardgames.poker.hands.PokerHand;
+import com.github.jflaherty.cardgames.poker.helpers.CardHelper;
 
 public class PokerHandFileBasedText {
 

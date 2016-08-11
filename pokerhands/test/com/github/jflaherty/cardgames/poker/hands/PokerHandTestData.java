@@ -1,10 +1,10 @@
-package com.github.wsppan.cardgames.poker.hands;
+package com.github.jflaherty.cardgames.poker.hands;
 
 import java.util.ArrayList;
 import java.util.Collection;
 
-import com.github.wsppan.cardgames.playingcards.french.Card;
-import com.github.wsppan.cardgames.poker.helpers.CardHelper;
+import com.github.jflaherty.cardgames.playingcards.french.Card;
+import com.github.jflaherty.cardgames.poker.helpers.CardHelper;
 
 public class PokerHandTestData {
     private Collection<Card> playerOneCards;

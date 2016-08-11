@@ -1,9 +1,9 @@
-package com.github.wsppan.cardgames.poker.sequences.sets;
+package com.github.jflaherty.cardgames.poker.sequences.sets;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.github.wsppan.cardgames.poker.hands.PokerHandRank;
+import com.github.jflaherty.cardgames.poker.hands.PokerHandRank;
 
 public class PokerSequenceSetTestDataSet {
 

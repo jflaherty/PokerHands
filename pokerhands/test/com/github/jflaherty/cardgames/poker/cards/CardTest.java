@@ -1,4 +1,4 @@
-package com.github.wsppan.cardgames.poker.cards;
+package com.github.jflaherty.cardgames.poker.cards;
 
 import static org.junit.Assert.*;
 
@@ -7,9 +7,9 @@ import java.util.TreeSet;
 
 import org.junit.Test;
 
-import com.github.wsppan.cardgames.playingcards.french.Rank;
-import com.github.wsppan.cardgames.playingcards.french.Suit;
-import com.github.wsppan.cardgames.playingcards.french.Card;
+import com.github.jflaherty.cardgames.playingcards.french.Card;
+import com.github.jflaherty.cardgames.playingcards.french.Rank;
+import com.github.jflaherty.cardgames.playingcards.french.Suit;
 
 public class CardTest {
 

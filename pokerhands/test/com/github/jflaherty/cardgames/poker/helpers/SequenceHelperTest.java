@@ -1,4 +1,4 @@
-package com.github.wsppan.cardgames.poker.helpers;
+package com.github.jflaherty.cardgames.poker.helpers;
 
 import static org.junit.Assert.*;
 
@@ -10,11 +10,11 @@ import java.util.TreeSet;
 
 import org.junit.Test;
 
-import com.github.wsppan.cardgames.playingcards.french.Card;
-import com.github.wsppan.cardgames.playingcards.french.Rank;
-import com.github.wsppan.cardgames.playingcards.french.Suit;
-import com.github.wsppan.cardgames.poker.helpers.CardHelper;
-import com.github.wsppan.cardgames.poker.helpers.SequenceHelper;
+import com.github.jflaherty.cardgames.playingcards.french.Card;
+import com.github.jflaherty.cardgames.playingcards.french.Rank;
+import com.github.jflaherty.cardgames.playingcards.french.Suit;
+import com.github.jflaherty.cardgames.poker.helpers.CardHelper;
+import com.github.jflaherty.cardgames.poker.helpers.SequenceHelper;
 
 public class SequenceHelperTest {
 

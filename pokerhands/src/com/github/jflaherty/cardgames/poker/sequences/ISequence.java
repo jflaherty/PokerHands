@@ -1,9 +1,9 @@
-package com.github.wsppan.cardgames.poker.sequences;
+package com.github.jflaherty.cardgames.poker.sequences;
 
 import java.util.SortedSet;
 
-import com.github.wsppan.cardgames.playingcards.french.Card;
-import com.github.wsppan.cardgames.poker.hands.IHandRank;
+import com.github.jflaherty.cardgames.playingcards.french.Card;
+import com.github.jflaherty.cardgames.poker.hands.IHandRank;
 
 public interface ISequence extends Comparable<ISequence> {
     public SortedSet<Card> getCardsInSequence();

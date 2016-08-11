@@ -1,4 +1,4 @@
-package com.github.wsppan.cardgames.poker.helpers;
+package com.github.jflaherty.cardgames.poker.helpers;
 
 import java.util.Collection;
 import java.util.List;
@@ -7,7 +7,7 @@ import java.util.TreeSet;
 import java.util.function.Function;
 import java.util.stream.*;
 
-import com.github.wsppan.cardgames.playingcards.french.Card;
+import com.github.jflaherty.cardgames.playingcards.french.Card;
 
 public class SequenceHelper {
     

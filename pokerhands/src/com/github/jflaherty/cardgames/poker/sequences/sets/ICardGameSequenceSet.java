@@ -1,6 +1,6 @@
-package com.github.wsppan.cardgames.poker.sequences.sets;
+package com.github.jflaherty.cardgames.poker.sequences.sets;
 
-import com.github.wsppan.cardgames.poker.sequences.ISequence;
+import com.github.jflaherty.cardgames.poker.sequences.ISequence;
 
 public interface ICardGameSequenceSet extends Comparable<ICardGameSequenceSet> {
     public ISequence getPrimary();

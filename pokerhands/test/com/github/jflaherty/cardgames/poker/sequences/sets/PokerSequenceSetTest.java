@@ -1,4 +1,4 @@
-package com.github.wsppan.cardgames.poker.sequences.sets;
+package com.github.jflaherty.cardgames.poker.sequences.sets;
 
 import static org.junit.Assert.*;
 
@@ -13,10 +13,10 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
-import com.github.wsppan.cardgames.playingcards.french.Card;
-import com.github.wsppan.cardgames.poker.hands.IHandRank;
-import com.github.wsppan.cardgames.poker.sequences.sets.ICardGameSequenceSet;
-import com.github.wsppan.cardgames.poker.sequences.sets.PokerSequenceSet;
+import com.github.jflaherty.cardgames.playingcards.french.Card;
+import com.github.jflaherty.cardgames.poker.hands.IHandRank;
+import com.github.jflaherty.cardgames.poker.sequences.sets.ICardGameSequenceSet;
+import com.github.jflaherty.cardgames.poker.sequences.sets.PokerSequenceSet;
 
 @RunWith(Parameterized.class)
 public class PokerSequenceSetTest {

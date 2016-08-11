@@ -1,18 +1,18 @@
-package com.github.wsppan.cardgames.poker.sequences.sets;
+package com.github.jflaherty.cardgames.poker.sequences.sets;
 
 import static org.junit.Assert.*;
 
 import java.util.*;
 
-import static com.github.wsppan.cardgames.playingcards.french.Rank.*;
-import static com.github.wsppan.cardgames.playingcards.french.Suit.*;
-import static com.github.wsppan.cardgames.poker.hands.PokerHandRank.*;
+import static com.github.jflaherty.cardgames.playingcards.french.Rank.*;
+import static com.github.jflaherty.cardgames.playingcards.french.Suit.*;
+import static com.github.jflaherty.cardgames.poker.hands.PokerHandRank.*;
 
 import org.junit.Test;
 
-import com.github.wsppan.cardgames.playingcards.french.Card;
-import com.github.wsppan.cardgames.poker.sequences.ISequence;
-import com.github.wsppan.cardgames.poker.sequences.sets.SequenceDetector;
+import com.github.jflaherty.cardgames.playingcards.french.Card;
+import com.github.jflaherty.cardgames.poker.sequences.ISequence;
+import com.github.jflaherty.cardgames.poker.sequences.sets.SequenceDetector;
 
 public class SequenceDetectorTest {
     private SequenceDetector detector = new SequenceDetector();
